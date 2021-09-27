@@ -1,5 +1,10 @@
 <?php
 
-function hello() {
-    echo('hello world');
+class MyClass {
+  public function __construct() {
+  }
+
+  function hello() {
+      echo('hello world');
+  }
 }
